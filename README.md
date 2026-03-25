@@ -3,7 +3,7 @@
 ## 📊 Descripción del Proyecto
 Este proyecto analiza el uso de lavanderías en un entorno de vivienda multifamiliar, con el objetivo de entender el comportamiento de los usuarios, identificar horas pico y optimizar el rendimiento operativo.
 
-Se simula un escenario real de negocio utilizando SQL para el procesamiento de datos y Power BI para la visualización.
+Se simula un escenario real de negocio utilizando Python y SQL para el procesamiento y automaticación de datos y Power BI para la visualización.
 
 ---
 
@@ -42,7 +42,15 @@ Se simula un escenario real de negocio utilizando SQL para el procesamiento de d
 
 ┃ ┣ residents.csv
 
-┃ ┗ laundries.csv
+┃ ┣ laundries.csv
+
+┃ ┗ clean_usage_cycles.csv
+
+┣ 📁 python
+
+┃ ┣ analysis.py
+
+┃ ┗ chatbot.py
 
 ┣ 📁 dashboard
 
@@ -74,6 +82,18 @@ El proyecto utiliza múltiples tablas relacionadas:
 - **machines**: información de máquinas
 - **residents**: usuarios
 - **laundries**: ubicaciones
+
+---
+
+## 🐍 Python
+
+El proyecto incluye scripts en Python para procesamiento y automatización:
+
+- `analysis.py`: limpieza de datos, generación de KPIs y dataset limpio
+- `chatbot.py`: asistente básico para consulta de datos
+
+Se generó un archivo adicional:
+- `clean_usage_cycles.csv`: dataset listo para análisis
 
 ---
 
